@@ -1,14 +1,13 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import style from "@/styles/app.module.css";
 import Link from "next/link";
 export default function Home() {
   return (
     <div>
       <ul>
-        <li>
+        <li className={style["red"]}>
           <Link href="/facebook">Facebook</Link>
         </li>
-        <li>
+        <li className={style["green"]}>
           <Link href="/tiktok">TikTok</Link>
         </li>
         <li>

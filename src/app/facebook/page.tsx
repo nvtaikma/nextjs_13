@@ -1,5 +1,6 @@
 "use client";
 import { useRouter } from "next/navigation";
+
 const Facebook = () => {
   const router = useRouter();
 
@@ -8,7 +9,7 @@ const Facebook = () => {
   };
 
   return (
-    <div>
+    <div >
       facebook page
       <div>
         <button onClick={() => handleBtnClick()}>Back Home</button>
