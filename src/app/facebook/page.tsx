@@ -4,7 +4,7 @@ const Facebook = () => {
   const router = useRouter();
 
   const handleBtnClick = () => {
-    router.push("/admin");
+    router.push("/");
   };
 
   return (
