@@ -1,5 +1,9 @@
+"use client";
 import style from "@/styles/app.module.css";
 import Link from "next/link";
+import Container from "react-bootstrap/Container";
+import TableExample from "../components/app.table";
+
 export default function Home() {
   return (
     <div>
@@ -14,6 +18,7 @@ export default function Home() {
           <Link href="/youtube">Youtube</Link>
         </li>
       </ul>
+      <TableExample />
     </div>
   );
 }
